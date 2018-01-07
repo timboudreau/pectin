@@ -79,7 +79,7 @@ Things would be a lot simpler if you could write:
 public void get(Function<T,Object> createResponse) { ... }
 ```
 
-and have any hope of recovering the type of T at runtime (with an anonymouse inner class you might
+and have any hope of recovering the type of T at runtime (with an anonymous inner class you might
 be able to;  with a lambda, there is no possibility of that, including using annotations to explicitly
 provde it).
 
@@ -99,4 +99,10 @@ compiler cannot (though it has enough information to) infer the type of T from t
 member.
 
 At any rate, it's nifty and provides a terse way of writing tinker-toy prototypes.
+
+Why "Pectin"?
+-------------
+
+It's a thing used in making jelly and jam - it facilitates making something sweet and tasty, but its
+role is simply to stiffen it a bit.  Seemed about right.
 
